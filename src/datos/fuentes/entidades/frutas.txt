@@ -1,0 +1,11 @@
+Mora,9,9
+Mora,8,13
+Mora,9,16
+Mora,20,12
+Mora,11,14
+Mora,15,19
+Mora,16,13
+Banana,23,15
+Mora,9,21
+Mora,23,22
+Mora,21,18

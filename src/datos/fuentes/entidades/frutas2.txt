@@ -1,0 +1,12 @@
+Banana,9,10
+Banana,9,11
+Banana,10,10
+Banana,9,20
+Banana,9,21
+Banana,10,21
+Banana,21,10
+Banana,22,10
+Banana,22,11
+Banana,22,21
+Banana,22,20
+Banana,21,21
