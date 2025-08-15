@@ -26,7 +26,7 @@ public class GuardarCargar implements Serializable {
 
         try{
 
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File("C:\\Users\\MY LENOVO\\IdeaProjects\\Proyecto---BadIce\\src\\datos\\fuentes\\datosDeJuego\\" + nivel.getNivel() + ".dat")));
+            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File("C:\\Users\\MY LENOVO\\IdeaProjects\\BAD-ICE-CREAM\\src\\datos\\fuentes\\datosDeJuego\\" + nivel.getNivel() + ".dat")));
 
             Almacenamiento almacenamiento = new Almacenamiento();
 
@@ -85,7 +85,7 @@ public class GuardarCargar implements Serializable {
      */
     public void cargar(Nivel nivel){
         try {
-            ObjectInputStream ois = new ObjectInputStream(new FileInputStream(new File("C:\\Users\\MY LENOVO\\IdeaProjects\\Proyecto---BadIce\\src\\datos\\fuentes\\datosDeJuego\\" + nivel.getNivel() + ".dat")));
+            ObjectInputStream ois = new ObjectInputStream(new FileInputStream(new File("C:\\Users\\MY LENOVO\\IdeaProjects\\BAD-ICE-CREAM\\src\\datos\\fuentes\\datosDeJuego\\" + nivel.getNivel() + ".dat")));
 
             //Leer del archivo
             Almacenamiento almacenamiento = (Almacenamiento) ois.readObject();

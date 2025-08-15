@@ -29,6 +29,7 @@ public class BadIceCream {
         panelDeJuego.getConfiguración().cargarConfig();
 
         ventana.pack();
+
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
 
