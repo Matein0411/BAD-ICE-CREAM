@@ -14,6 +14,8 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+.idea/
+BAD-ICE-CREAM.iml
 
 ### NetBeans ###
 /nbproject/private/
